@@ -1,0 +1,23 @@
+{
+    "name": "bahaso/bahaso-passport-client",
+    "description": "Bahaso Passport Client provides Resource server of Auth server (OAuth2 server <Bahaso Passport>)",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bahaso",
+            "email": "developer@bahaso.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "~6.0",
+        "illuminate/cache": "^6.0",
+        "illuminate/contracts": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bahaso\\PassportClient\\": "src/"
+        }
+    }
+}
